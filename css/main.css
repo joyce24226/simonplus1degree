@@ -21,7 +21,7 @@
 #main-visual {
 
     height: 750px;
-    background: url(../img/main-visual.jpg) no-repeat center top;
+    background: url(../img/main-visual.jpg) no-repeat center / cover;
 }
 
 #main-visual h3 {
@@ -62,7 +62,10 @@
     padding: 20px;
 
 }
-
+#main-visual #guide li .main-vtext{
+    margin-top: 15px;
+    margin-left: 10px;
+}
 #main-visual #guide li img:first-child{
     transform: scale(1);
     transition: all 0.5s;
