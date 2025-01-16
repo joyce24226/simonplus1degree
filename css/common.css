@@ -41,7 +41,9 @@ header .gnb li a {
     font-weight: 500;
     transition: all 0.5s;
 }
-
+header .gnb li:hover a {
+    color: #5a825a;
+}
 header .utill {
     display: flex;
     justify-content: space-between;
@@ -58,11 +60,11 @@ header .utill li {
 
 header .utill li a {
     display: block;
-    color: #fff;
     font-weight: 300;
 }
-
-
+header .utill li:hover a{
+color: #5a825a;
+}
 
 /* footer */
 
